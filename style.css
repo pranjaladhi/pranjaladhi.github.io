@@ -12,7 +12,7 @@
 }
 
 :root {
-    --bg-color: #ababbb;
+    --bg-color: #4e4e68;
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #008b8b;
@@ -31,6 +31,11 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
 }
 
 .header {
@@ -57,7 +62,7 @@ body {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
-    transition: .3s;
+    transition: .3s ease;
 }
 
 .navbar a:hover,
@@ -69,4 +74,68 @@ body {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home-img img {
+    width: 35vw;
+}
+
+.home-content h3 {
+    font-size: 5.2rem;
+    font-weight: 500;
+}
+
+.home-content h1 {
+    font-size: 3.2rem;
+    font-weight: 43;
+    line-height: 1.3;
+}
+
+.home-content em1 {
+    color: #ffa500;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    background: transparent;
+    border: .2rem solid var(--second-bg-color);
+    border-radius: 50%;
+    font-size: 5rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .3s ease
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.6rem;
+    background: var(--main-color);
+    border-radius: 2rem;
+    font-size: 3rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 400;
+    transition: .3s ease;
+}
+
+.btn:hover {
+    background: var(--bg-color);
+    color: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
 }
