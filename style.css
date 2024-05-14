@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #4e4e68;
-    --second-bg-color: #323946;
+    --bg-color: #343447;
+    --second-bg-color: #1d2b44;
     --text-color: #fff;
     --main-color: #008b8b;
 }
@@ -83,7 +83,9 @@ section {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 30vw;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
 }
 
 .home-content h3 {
@@ -95,10 +97,6 @@ section {
     font-size: 3.2rem;
     font-weight: 43;
     line-height: 1.3;
-}
-
-.home-content em1 {
-    color: #ffa500;
 }
 
 .social-media a {
@@ -113,7 +111,7 @@ section {
     font-size: 5rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: .3s ease
+    transition: .3s ease;
 }
 
 .social-media a:hover {
@@ -138,4 +136,11 @@ section {
     background: var(--bg-color);
     color: var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-bg-color);
 }
