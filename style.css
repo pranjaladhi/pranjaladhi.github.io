@@ -1,19 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
 }
 
 :root {
     --bg-color: #343447;
     --second-bg-color: #1d2b44;
+    --header-color: #123d3d;
     --text-color: #fff;
     --main-color: #008b8b;
 }
@@ -24,7 +25,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 70.5%;
     overflow-x: hidden;
 }
 
@@ -44,7 +45,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +60,7 @@ section {
 }
 
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s ease;
@@ -139,8 +140,43 @@ section {
 }
 
 .skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: var(--second-bg-color);
+}
+
+.skills h2 {
+    font-size: 5rem;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.LangAndTech-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7rem;
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Center the icons vertically */
+}
+
+.Icon {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.1s ease; /* Optional: for a smooth hover effect */
+    color: var(--main-color);
+}
+
+.Icon:hover {
+    transform: scale(1.1); /* Optional: slightly enlarge icon on hover */
+}
+
+.name::before {
+    position: absolute;
+}
+
+.Icon:hover .name {
+    visibility: visible;
 }
