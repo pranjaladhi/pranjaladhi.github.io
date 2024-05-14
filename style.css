@@ -153,30 +153,41 @@ section {
 .LangAndTech-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 7rem;
+    gap: 5rem;
     justify-content: center; /* Center the icons horizontally */
     align-items: center; /* Center the icons vertically */
 }
 
 .Icon {
-    font-size: 5rem;
+    font-size: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
-    transition: transform 0.1s ease; /* Optional: for a smooth hover effect */
+    padding: 10rem;
+    transition: transform 0.3s ease;
     color: var(--main-color);
 }
 
-.Icon:hover {
-    transform: scale(1.1); /* Optional: slightly enlarge icon on hover */
+.name {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    bottom: 2rem;
+    transition: visibility 0s, opacity 0.3s ease;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    white-space: nowrap;
 }
 
-.name::before {
-    position: absolute;
+.Icon:hover {
+    transform: scale(1.5);
 }
 
 .Icon:hover .name {
     visibility: visible;
+    opacity: 1;
 }
