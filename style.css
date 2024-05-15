@@ -14,7 +14,7 @@
 :root {
     --bg-color: #343447;
     --second-bg-color: #1d2b44;
-    --header-color: #2516ac;
+    --header-color: #5046ac;
     --text-color: #fff;
     --main-color: #008b8b;
 }
@@ -179,7 +179,7 @@ section {
     color: var(--text-color);
     border-radius: 2rem;
     font-size: 2rem;
-    padding: 1rem 3rem;
+    padding: 1rem 1.5rem;
     white-space: nowrap;
 }
 
@@ -195,10 +195,26 @@ section {
 .projects {
     background: var(--bg-color);
 }
-/* 
-.projects h2{
-    font-size: 5rem;
+
+.projects h2 {
+    margin-bottom: 4rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.projects-container .project-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
     display: flex;
-    align-items: top;
-    justify-content: center;
-} */
+}
+
+.project-box img {
+    width: 5%;
+}
