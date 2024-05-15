@@ -14,7 +14,7 @@
 :root {
     --bg-color: #343447;
     --second-bg-color: #1d2b44;
-    --header-color: #123d3d;
+    --header-color: #2516ac;
     --text-color: #fff;
     --main-color: #008b8b;
 }
@@ -154,8 +154,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    justify-content: center; /* Center the icons horizontally */
-    align-items: center; /* Center the icons vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .Icon {
@@ -191,3 +191,14 @@ section {
     visibility: visible;
     opacity: 1;
 }
+
+.projects {
+    background: var(--bg-color);
+}
+/* 
+.projects h2{
+    font-size: 5rem;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+} */
