@@ -268,3 +268,7 @@ section {
     background: var(--second-main-color);
     border-radius: 2rem;
 }
+
+.experience {
+    background: var(--second-bg-color);
+}
