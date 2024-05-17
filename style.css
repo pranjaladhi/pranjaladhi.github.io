@@ -206,7 +206,7 @@ section {
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
@@ -250,9 +250,9 @@ section {
 }
 
 .projects-layer h4 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: 600;
-    line-height: 6rem;
+    line-height: 4rem;
 }
 
 .projects-layer p {
