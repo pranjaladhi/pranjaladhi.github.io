@@ -302,3 +302,11 @@ section {
 .experience {
     background: var(--second-bg-color);
 }
+
+.experience h2 {
+    margin-bottom: 4rem;
+    font-size: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+
