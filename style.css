@@ -204,7 +204,7 @@ section {
     text-align: center;
 }
 
-.projects-container {
+/* .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -217,7 +217,40 @@ section {
     overflow: hidden;
     display: flex;
     border: .2rem solid var(--second-main-color);
+} */
+
+.projects-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
 }
+
+.projects-container1 .projects-box {
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    border: .2rem solid var(--second-main-color);
+}
+
+.projects-container2 {
+    width: 85%;
+    margin-top: 2.5rem;
+    padding-left: 17%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.projects-container2 .projects-box {
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    border: .2rem solid var(--second-main-color);
+} 
 
 .projects-box img {
     width: 100%;
@@ -289,3 +322,49 @@ section {
 }
 
 
+
+
+
+
+
+
+.contact h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-boxes input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--second-bg-color);
+    border-radius: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
