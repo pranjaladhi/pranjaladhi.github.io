@@ -46,7 +46,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,6 +82,7 @@ section {
     display: flex;
     justify-content: left;
     align-items: center;
+    background: var(--second-bg-color);
 }
 
 .home-img img {
@@ -108,7 +109,7 @@ section {
     width: 7rem;
     height: 7rem;
     background: transparent;
-    border: .2rem solid var(--second-bg-color);
+    border: .2rem solid var(--bg-color);
     border-radius: 50%;
     font-size: 5rem;
     color: var(--main-color);
@@ -135,13 +136,13 @@ section {
 }
 
 .btn:hover {
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     color: var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
 
 .skills {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .skills h2 {
@@ -194,7 +195,7 @@ section {
 }
 
 .projects {
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
 .projects h2 {
@@ -310,10 +311,6 @@ section {
     transition: 0.5s ease;
 }
 
-.experience {
-    background: var(--second-bg-color);
-}
-
 .experience h2 {
     font-size: 5rem;
     display: flex;
@@ -366,7 +363,6 @@ section {
 .timeline::after {
     content: '';
     position: absolute;
-    color: white;
     width: 6px;
     height: 100%;
     background-color: white;
@@ -431,7 +427,9 @@ section {
 
 
 
-
+.contact {
+    background: var(--second-bg-color);
+}
 
 .contact h2 {
     justify-content: center;
@@ -460,7 +458,7 @@ section {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     border-radius: 0.8rem;
     margin: 0.7rem 0;
 }
