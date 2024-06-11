@@ -31,3 +31,14 @@ window.onscroll = () => {
     menuIcon.classList.remove('bxs-x-circle');
     navbar.classList.remove('active');    
 };
+
+
+
+ScrollReveal({ 
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delya: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
