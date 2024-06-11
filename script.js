@@ -42,4 +42,4 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.LangAndTech-content, .projects-container1, .projects-container2, .timeline, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .LangAndTech-content, .projects-container1, .projects-container2, .timeline, .contact form', { origin: 'bottom' });
