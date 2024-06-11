@@ -40,6 +40,10 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+
+
+/* HEADER */
+
 .header {
     position: fixed;
     top: 0;
@@ -77,6 +81,10 @@ section {
     color: var(--text-color);
     display: none;
 }
+
+
+
+/* HOME PAGE */
 
 .home {
     display: flex;
@@ -347,14 +355,6 @@ section {
     width: 50%;
 }
 
-.container:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.container:nth-child(2) {
-    animation-delay: 1s;
-}
-
 .text-box {
     padding: 50px 30px;
     background: var(--bg-color);
@@ -387,6 +387,14 @@ section {
 
 .text-box h2 {
     font-weight: 600;
+}
+
+.text-box h4 {
+    font-size: 3rem;
+}
+
+.text-box ul {
+    padding-left: 2rem;
 }
 
 .text-box small {
