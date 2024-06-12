@@ -522,9 +522,23 @@ section {
         margin: 3rem 0;
     }
 
+
+
+    /* HOME PAGE */
+
     .home {
         flex-direction: column;
     }
+
+    .home-img img {
+        width: 60vw;
+        border: .4rem solid var(--main-color);
+        border-radius: 50%;
+    }
+
+
+
+    /* PROJECTS PAGE */
 
     .projects {
         padding-bottom: 0.02rem;
@@ -588,24 +602,79 @@ section {
         /* transform: translateY(100%);
         transition: 0.5s ease; */
     }
-/*     
-    .projects-box:hover .projects-layer {
+         
+    /*.projects-box:hover .projects-layer {
         transform: translateY(0%);
     } */
     
     .projects-layer h4 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 600;
-        line-height: 1.5rem;
+        line-height: 2.2rem;
     }
 
     .projects-layer p {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
         margin: .3rem 0 1rem;
     }
     
     .projects-layer s {
         font-size: 1rem;
         margin: .3rem 0 1rem;
+    }
+
+
+
+    /* EXPERIENCE PAGE */
+
+    .container {
+        padding: 10px 70px;
+        position: relative;
+        width: 85%;
+    }
+    
+    .text-box {
+        padding: 50px 30px;
+        background: var(--bg-color);
+        position: relative;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+    
+    .left-container {
+        left: 0%;
+    }
+    
+    .right-container {
+        left: 15%;
+    }
+    
+    .container img {
+        position: absolute;
+        width: 100px;
+        border-radius: 50%;
+        right: -50px;
+        top: 32px;
+        z-index: 10;
+        border: .2rem solid var(--main-color);
+    }
+    
+    .text-box h2 {
+        font-weight: 600;
+    }
+    
+    .text-box h4 {
+        font-size: 3rem;
+    }
+    
+    .text-box ul {
+        padding-left: 2rem;
+    }
+    
+    .text-box small {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 15px;
     }
 }
