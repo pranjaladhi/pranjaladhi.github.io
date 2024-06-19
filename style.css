@@ -961,6 +961,51 @@ section {
     }
 }
 
+@media (max-width: 509px) {
+
+    /* EXPERIENCE PAGE */
+    
+    .text-box {
+        padding: 40px 20px;
+        background: var(--bg-color);
+        position: relative;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+    
+    .left-container img {
+        position: absolute;
+        width: 85px;
+        border-radius: 50%;
+        right: -35px;
+        top: 32px;
+        z-index: 10;
+        border: .2rem solid var(--main-color);
+    }
+
+    .right-container img {
+        left: -35px;
+        width: 85px;
+    }
+    
+    .text-box h4 {
+        font-size: 2.25rem;
+    }
+    
+    .text-box ul {
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+    
+    .text-box small {
+        font-size: 1.75rem;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}
+
+
 @media (max-width: 489px) {
     /* PROJECTS PAGE */
 
@@ -992,5 +1037,102 @@ section {
         padding: 1.5rem;
         font-size: 1.5rem;
         transition: 0.5s ease;
+    }
+}
+
+@media (max-width: 417px) {
+    /* EXPERIENCE PAGE */
+    
+    .text-box {
+        padding: 30px 15px;
+        background: var(--bg-color);
+        position: relative;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+    
+    .left-container img {
+        position: absolute;
+        width: 70px;
+        border-radius: 50%;
+        right: -25px;
+        top: 32px;
+        z-index: 10;
+        border: .2rem solid var(--main-color);
+    }
+
+    .right-container img {
+        left: -25px;
+        width: 70px;
+    }
+    
+    .text-box h4 {
+        font-size: 2rem;
+    }
+    
+    .text-box ul {
+        font-size: 1.75rem;
+        padding-left: 2rem;
+    }
+    
+    .text-box small {
+        font-size: 1.5rem;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 382px) {
+    /* EXPERIENCE PAGE */
+
+    .container {
+        padding: 10px 70px;
+        position: relative;
+        width: 100%;
+    }
+
+    .left-container .text-box {
+        right: 50px;
+    }
+
+    .text-box {
+        padding: 30px 20px;
+        background: var(--bg-color);
+        position: relative;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+    
+    .left-container img {
+        position: absolute;
+        width: 70px;
+        border-radius: 50%;
+        right: 25px;
+        top: 32px;
+        z-index: 10;
+        border: .2rem solid var(--main-color);
+    }
+
+    .right-container img {
+        left: -25px;
+        width: 70px;
+    }
+    
+    .text-box h4 {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+    
+    .text-box ul {
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+    
+    .text-box small {
+        font-size: 1.75rem;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 15px;
     }
 }
