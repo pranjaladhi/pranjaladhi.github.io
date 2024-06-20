@@ -480,6 +480,89 @@ section {
 
 /* WEBSITE DIMENSIONS */
 
+@media (max-width: 1515px) {
+    
+    /* HOME PAGE */
+    
+    .home-content h3 {
+        font-size: 5.2rem;
+        font-weight: 500;
+        line-height: 5.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .home-content h1 {
+        font-size: 3.2rem;
+        font-weight: 43;
+        line-height: 3.5rem;
+    }
+
+
+    
+    /* PROJECTS PAGE */
+    
+    .projects-layer h4 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 3rem;
+    }
+
+    .projects-layer p {
+        font-size: 2rem;
+        line-height: 2.25rem;
+        margin: .9rem 0 1rem;
+    }
+    
+    .projects-layer s {
+        font-size: 1.2rem;
+        margin: .3rem 0 1rem;
+    }
+}
+
+@media (max-width: 1313px) {
+
+    /* PROJECTS PAGE */
+    
+    .projects-layer h4 {
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+
+    .projects-layer p {
+        font-size: 1.75rem;
+        line-height: 2rem;
+        margin: .9rem 0 1rem;
+    }
+    
+    .projects-layer s {
+        font-size: 1.2rem;
+        margin: .3rem 0 1rem;
+    }
+}
+
+@media (max-width: 1259px) {
+
+    /* PROJECTS PAGE */
+    
+    .projects-layer h4 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2.25rem;
+    }
+
+    .projects-layer p {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        margin: .9rem 0 1rem;
+    }
+    
+    .projects-layer s {
+        font-size: 1rem;
+        margin: .3rem 0 1rem;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -492,28 +575,6 @@ section {
     }
     section {
         padding: 10rem 3% 2rem;
-    }
-}
-
-@media (max-width: 977px) {
-
-    /* PROJECTS PAGE */
-    
-    .projects-layer h4 {
-        font-size: 2.5rem;
-        font-weight: 600;
-        line-height: 2.5rem;
-    }
-
-    .projects-layer p {
-        font-size: 2rem;
-        line-height: 2rem;
-        margin: .9rem 0 1rem;
-    }
-    
-    .projects-layer s {
-        font-size: 1.2rem;
-        margin: .3rem 0 1rem;
     }
 }
 
