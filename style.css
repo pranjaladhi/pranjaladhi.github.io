@@ -603,10 +603,10 @@ section {
     .navbar {
         height: 0px;
         position: absolute;
-        top: 69px;
+        top: 100%;
         left: 0;
         right: 0;
-        width: 100vw;
+        width: 100%;
         padding: 0rem 0%;
         background: var(--bg-color);
         transition: 0.5s;
