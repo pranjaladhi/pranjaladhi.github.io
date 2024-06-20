@@ -927,6 +927,24 @@ section {
     }
 }
 
+@media (max-width: 619px) {
+    /* HOME PAGE */
+    
+    .home-content h3 {
+        font-size: 5.2rem;
+        font-weight: 500;
+        line-height: 5.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .home-content h1 {
+        font-size: 3.2rem;
+        font-weight: 43;
+        line-height: 3.5rem;
+    }
+
+}
+
 @media (max-width: 545px) {
     /* PROJECTS PAGE */
 
