@@ -577,7 +577,7 @@ section {
         display: block;
     }
 
-    .navbar {
+    /* .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -595,10 +595,41 @@ section {
 
     .navbar a {
         display: block;
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin: 3rem 0;
+        text-align: center;
+    } */
+
+    .navbar {
+        height: 0px;
+        position: absolute;
+        top: 69px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        padding: 0rem 0%;
+        background: var(--bg-color);
+        transition: 0.5s;
+        overflow: hidden;
     }
 
+    .navbar.active {
+        height: 325px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2.5rem;
+        margin: 3rem 0;
+        text-align: center;
+        transition: 1.5s;
+        opacity: 0;
+    }
+
+    .navbar.active a {
+        opacity: 1;
+    }
 
 
     /* HOME PAGE */
