@@ -573,6 +573,12 @@ section {
     html {
         font-size: 55%;
     }
+
+    .navbar a {
+        font-size: 1.7rem;
+        margin-left: 2.5rem;
+        padding: 0.5rem 1.4rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -581,6 +587,12 @@ section {
     }
     section {
         padding: 10rem 3% 2rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+        padding: 0.4rem 1rem;
     }
 }
 
